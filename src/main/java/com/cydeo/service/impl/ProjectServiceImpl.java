@@ -2,7 +2,6 @@ package com.cydeo.service.impl;
 
 import com.cydeo.dto.ProjectDTO;
 import com.cydeo.enums.Status;
-import com.cydeo.service.CrudService;
 import com.cydeo.service.ProjectService;
 import org.springframework.stereotype.Service;
 

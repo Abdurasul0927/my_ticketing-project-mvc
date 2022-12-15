@@ -79,4 +79,12 @@ public class TaskController {
 
         return "redirect:/task/update";
     }
+
+    @GetMapping("/employee/pending-tasks")
+    public String employeePendingTasks(){
+
+
+        return "/task/pending-tasks";
+    }
+
 }
